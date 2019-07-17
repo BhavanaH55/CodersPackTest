@@ -4,6 +4,8 @@ main()
 {
 	int choice;
 	float c,f;
+	do
+	{
 	printf("Enter your choice :\n1.Celcius to farenheit\n2.Farenheit to celcius\n3.Exit\n");
 	scanf("%d",&choice);
 	switch(choice)
@@ -22,4 +24,5 @@ main()
 		        break;
 		default :printf("Invalid choice");
 	}
+	}while(choice<3);
 }
